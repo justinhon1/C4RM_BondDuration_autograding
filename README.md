@@ -1,9 +1,9 @@
-# The assignment is to code Bond pricing function
+# The assignment is to code Bond Duration function
 
 
 # Pseudo code
 
-def BondPricer(y, face, couponRate, m, optional ppy=1):
+def getBondDuration(y, couponRate, m, optional ppy):
 
         Your code here
   
@@ -11,7 +11,6 @@ def BondPricer(y, face, couponRate, m, optional ppy=1):
 # Variable
         
         y = Yield
-        face = Face amount
         couponRate = Coupon Rate
         m = Maturity
         ppy = Payments per year
@@ -19,13 +18,12 @@ def BondPricer(y, face, couponRate, m, optional ppy=1):
 # Unit tests
 
         y = 0.03
-        face = 2000000
         couponRate = 0.04
         m = 10
-        ppy = 2
+        ppy = 1
         
-        BondPricer(y, face, couponRate, m, ppy)
-        BondPricer(3, 2000000, 0.04, 10, 2) = 2171686.39
+        BondPricer(y, couponRate, m, ppy)
+        BondPricer(0.03, 0.04, 10, 1) = xxx
         
  # Instructions
         
