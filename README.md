@@ -3,7 +3,7 @@
 
 # Pseudo code
 
-def getBondDuration(y, couponRate, m, optional ppy):
+def getBondDuration(y, couponRate, m, ppy):
 
         Your code here
   
