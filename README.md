@@ -22,8 +22,8 @@ def getBondDuration(y, couponRate, m, ppy):
         m = 10
         ppy = 1
         
-        BondPricer(y, couponRate, m, ppy)
-        BondPricer(0.03, 0.04, 10, 1) = xxx
+        getBondDuration(y, couponRate, m, ppy)
+        getBondDuration(0.03, 0.04, 1, 10) = 8.508690
         
  # Instructions
         
